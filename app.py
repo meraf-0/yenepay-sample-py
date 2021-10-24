@@ -5,8 +5,8 @@ from yenepay.PaymentHandler import PaymentHandler, ProcessType, PDT, Item, IPN
 app = Flask(__name__)
 
 # you can get your merchant code and pdt token from your yenepay dashboard
-MERCHANT_CODE = "SB1286"        
-PDT_TOKEN = "Q7kc5gDaHEyjBi"
+MERCHANT_CODE = "YOUR MERCHANT CODE"        
+PDT_TOKEN = "YOUR PDR TOKEN"
 
 USE_SANDBOX = True              # whether we are using yenepay production or sandbox server - 
                                 # set to true if testing
