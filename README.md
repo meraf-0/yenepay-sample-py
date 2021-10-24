@@ -1,4 +1,4 @@
-# Sample Shop Application in PHP using YenePay for Payment
+# Sample Shop Application in Python using YenePay for Payment
 
 This library allows you to quickly and easily add YenePay as a payment method using Python
 
@@ -8,17 +8,23 @@ To add YenePay to your application and start collecting payments, you will first
 
 # Installation
 
-```git clone https://github.com/meraf-0/yenepay-sample-py.git```
+```
+git clone https://github.com/meraf-0/yenepay-sample-py.git
+```
 
-You will find the wrapper in yenepay folder
+Copy yenepay folder to your project folder
 
 # Usage
 
 Step 1: Import yenepay.PaymentHandler
-```from yenepay.PaymentHandler import PaymentHandler, ProcessType, PDT, Item, IPN```
+```
+from yenepay.PaymentHandler import PaymentHandler, ProcessType, PDT, Item, IPN
+```
 
 Step 2: Initialize handler
-```handler = PaymentHandler('YOUR MERCHANT CODE', useSandbox='TRUE IF YOU ARE TESTING')```
+```
+handler = PaymentHandler('YOUR MERCHANT CODE', useSandbox='TRUE IF YOU ARE TESTING')
+```
 
 Step 3: Set required fields for more information look at the official yenepay community website
 ```
